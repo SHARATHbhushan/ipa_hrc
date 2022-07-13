@@ -36,6 +36,6 @@
 
   <node name="tf_cam_2_link" pkg="tf" type="static_transform_publisher" output="screen" args="0 0.3 0.1 0 0 0 world cam_2_link 500" />
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find realsense2_camera)/rviz/pointcloud.rviz" required="true"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find realsense2_camera)/rviz/pointcloud_multicam.rviz" required="true"/>
 </launch>
 
